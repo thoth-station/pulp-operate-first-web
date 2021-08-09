@@ -32,8 +32,8 @@ pip install --index-url https://pulp.operate-first.cloud/pypi/<index-name>/simpl
 ```
 
 [--extra-index-url](https://pip.pypa.io/en/stable/cli/pip_install/#cmdoption-extra-index-url)
-will make sure that packages that are not found on the specified Pulp index are
-looked up on [PyPI](https://pypi.org/).
+(optional) will make sure that packages that are not found on the specified
+Pulp index are looked up on [PyPI](https://pypi.org/).
 
 You can also use [Pipenv](https://pipenv.pypa.io/) and [configure Python
 package indexes in
