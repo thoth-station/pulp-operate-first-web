@@ -1,12 +1,9 @@
-# template-project
+# Pulp Operate First Website
 
-This is a Template for any Python based project, it contains what Project Thoth and the AI CoE need:
+This repo contains the documentation for connecting and using the operate first pulp instance.<br>
+Documentation link on operate first website: <https://www.operate-first.cloud/community-handbook/pulp/usage.md>
 
-1. GitHub defaults and Templates for issues.
-2. Configuration for Coala and Black (code formating) are done using [`prow`](https://github.com/kubernetes/test-infra/tree/master/prow) with `pre-commit` and `mypy`.
-3. Zuul is no longer suppported. Instead [AICOE-CI](https://github.com/AICoE/aicoe-ci) is used for basic configuration.
-4. We have a public service configuration now accessible for everyone.
-5. If you are writing a Python module, [Kebechet](https://github.com/marketplace/khebhut) could manage the releases of your packages for you.
-6. If credentials are provided, Python module releases could be published to [`PyPI`](https://pypi.org/) by [Kebechet](https://github.com/marketplace/khebhut).
+## setup instruction
 
-Dependencies should be managed using `pipenv` (`Pipfile`, and the `Pipfile.lock` could be created by `thamos advise`), `pip3` and a `requirements.txt` files could be used.
+- Repo is listed as the source for the pulp documentation on operate-first site: <https://github.com/operate-first/operate-first.github.io/blob/90691bc8bc2eb4ae746d61d685b87a2da9c0ca3a/gatsby-config.js#L65>
+- On update of the [usage](./usage.md) doc the documentation gets updated.
