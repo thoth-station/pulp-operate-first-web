@@ -5,10 +5,10 @@ description: Pulp Python package index
 
 This document states basic usage of the Pulp instance hosted on Operate First.
 The Pulp instance is available at
-[pulp.operate.first.cloud](https://pulp.operate-first.cloud) and is used at Red
-Hat to host Python packages as an alternative to the publicly available
-[PyPI](https://pypi.org/). Unlike PyPI, Pulp hosts multiple Python package
-indexes that can be specific to teams or user needs.
+[pulp.operate.first.cloud](https://pulp.operate-first.cloud/pulp/api/v3/status/)
+and is used at Red Hat to host Python packages as an alternative to the
+publicly available [PyPI](https://pypi.org/). Unlike PyPI, Pulp hosts multiple
+Python package indexes that can be specific to teams or user needs.
 
 ## System requirements for consuming Python packages
 
