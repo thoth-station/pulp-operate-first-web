@@ -58,7 +58,7 @@ authority for publishing Python packages to Pulp indexes.
 Follow instructions:
 
 - Install [aicoe-ci](https://github.com/apps/aicoe-ci) GitHub app in your GitHub repository.
-- Include `.aicoe-ci.yaml` configuration.yaml, a sample can be found [here](https://github.com/AICoE/aicoe-ci/blob/master/docs/.aicoe-ci.yaml).
+- Include `.aicoe-ci.yaml` configuration.yaml, a sample can be found [here](https://github.com/thoth-station/aicoe-ci-pulp-upload-example/blob/master/.aicoe-ci.yaml).
 - Edit the snippet below with your explicit **index name** and add it in `.aicoe-ci.yaml` configuration yaml
 
 ```yaml
